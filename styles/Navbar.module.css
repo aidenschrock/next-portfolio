@@ -1,0 +1,21 @@
+.navbarContent {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+}
+
+.active {
+  color: pink;
+}
+
+@media (min-width: 768px) {
+  .navbarContent {
+    justify-content: right;
+  }
+
+  .navbarContent li {
+    padding: 0 20px;
+  }
+}

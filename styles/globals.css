@@ -16,15 +16,15 @@ a {
     color-scheme: dark;
     scroll-behavior: smooth;
     background: rgb(20, 21, 37);
-    background: linear-gradient(
+    /* background: linear-gradient(
       52deg,
       rgba(20, 21, 37, 1) 0%,
       rgba(32, 13, 21, 1) 100%
-    );
-    /* background-image: url("../public/topography.svg"); */
+    ); */
+    background-image: url("../public/topography.svg");
   }
   body {
-    background-image: url("../public/topography.svg");
+    /* background-image: url("../public/topography.svg"); */
     color: white;
   }
 }

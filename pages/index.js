@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -90,7 +91,46 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.cardContainer}>
-            <div className={styles.card}></div>
+            <Link href="/balena">
+              <div className={styles.card}>
+                <Image
+                  src="/balena.png"
+                  alt="Balena Cloud logo"
+                  width={80}
+                  height={100}
+                />
+                <h4>Balena Extension</h4>
+                <p>Manage your IoT devices from VS Code</p>
+              </div>
+            </Link>
+            <Link href="/recolude">
+              <div className={styles.card}>
+                <Image
+                  src="/recolude.png"
+                  alt="Recolude logo"
+                  width={80}
+                  height={100}
+                />
+                <h4>Recolude</h4>
+                <p>XR Analytics & Recordings</p>
+              </div>
+            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://medium.com/@aidenschrock/allrecipes-ux-design-study-redesigning-the-most-popular-cooking-site-e04c73ed58a1"
+            >
+              <div className={styles.card}>
+                <Image
+                  src="/article.png"
+                  alt="Article icon"
+                  width={80}
+                  height={100}
+                />
+                <h4>Medium Article</h4>
+                <p>Allrecipes Product Redesign</p>
+              </div>
+            </a>
           </div>
         </div>
       </main>

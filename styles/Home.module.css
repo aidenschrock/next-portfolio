@@ -66,6 +66,10 @@
   margin-bottom: 0px;
 }
 
+.card p {
+  margin-top: 0px;
+}
+
 @media (min-width: 768px) {
   .title {
     flex-direction: row;

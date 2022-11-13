@@ -6,7 +6,7 @@ export default function NavbarComponent() {
   const router = useRouter();
 
   return (
-    <nav>
+    <nav className={styles.sticky}>
       <div>
         <ul className={styles.navbarContent}>
           <li>

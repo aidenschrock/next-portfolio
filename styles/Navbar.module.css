@@ -1,3 +1,12 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  background: rgba(20, 21, 37, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
 .navbarContent {
   display: flex;
   list-style-type: none;
@@ -11,6 +20,13 @@
 }
 
 @media (min-width: 768px) {
+  .sticky {
+    position: unset;
+    background: unset;
+    box-shadow: unset;
+    backdrop-filter: unset;
+    -webkit-backdrop-filter: unset;
+  }
   .navbarContent {
     justify-content: right;
   }

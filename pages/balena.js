@@ -1,1 +1,3 @@
-export default function Balena() {}
+export default function Balena() {
+  return <div></div>;
+}

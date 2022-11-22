@@ -12,9 +12,14 @@
   max-width: 2000px;
 }
 
+.title h1 {
+  margin-bottom: 0px;
+}
+
 .title p {
   font-size: 16px;
   margin-top: 36px;
+  margin-bottom: 0px;
 }
 
 .icons {
@@ -32,9 +37,13 @@
 
 .socialIcon {
   fill: white;
-  color: white;
   height: 40px;
   width: 40px;
+  transition: fill 0.4s ease;
+}
+
+.socialIcon:hover {
+  fill: #861343;
 }
 
 .cardContainer {
@@ -103,6 +112,12 @@
   }
 }
 @media (min-width: 1024px) {
+  .title h1 {
+    font-size: 96px;
+  }
+  .title p {
+    font-size: 36px;
+  }
   .card {
     margin: 0 20px;
   }

@@ -9,27 +9,18 @@ export default function NavbarComponent() {
     <nav className={styles.sticky}>
       <div>
         <ul className={styles.navbarContent}>
-          <li>
-            <Link
-              href="/"
-              className={router.pathname == "/" ? styles.active : ""}
-            >
+          <li className={router.pathname == "/" ? styles.active : ""}>
+            <Link href="/">
               <h3>Home</h3>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/about"
-              className={router.pathname == "/about" ? styles.active : ""}
-            >
+          <li className={router.pathname == "/about" ? styles.active : ""}>
+            <Link href="/about">
               <h3>About</h3>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/resources"
-              className={router.pathname == "/resources" ? styles.active : ""}
-            >
+          <li className={router.pathname == "/resources" ? styles.active : ""}>
+            <Link href="/resources">
               <h3>Resources</h3>
             </Link>
           </li>

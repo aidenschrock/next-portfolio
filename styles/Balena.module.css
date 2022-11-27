@@ -1,0 +1,109 @@
+.container {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.title h4 {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.textBlock {
+  background-color: #2a2636;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  max-width: 1600px;
+  margin-top: 40px;
+}
+
+.textBlock h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.textBlock p {
+  font-size: 18px;
+}
+
+.textBlock h4 {
+  font-weight: 500;
+}
+
+.button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button button {
+  background-color: #2a2636;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  width: 160px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin: 0 32px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 135px;
+  }
+
+  .title h2 {
+    font-size: 64px;
+  }
+
+  .title h4 {
+    font-size: 32px;
+  }
+  .textBlock {
+    padding: 15px 42px;
+  }
+  .textBlock h3 {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .textBlock p {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .textBlock h4 {
+    font-size: 26px;
+  }
+
+  .button button {
+    width: 280px;
+    font-size: 28px;
+  }
+}

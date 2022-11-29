@@ -37,7 +37,7 @@
   border: 2px solid black;
   padding: 15px;
   max-width: 1024px;
-  margin-top: 40px;
+  margin: 20px 0;
 }
 
 .textBlock h3 {
@@ -78,6 +78,11 @@
     width: 500px;
     height: 700px;
   }
+
+  .gif {
+    width: 600px;
+    height: 300px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -101,6 +106,11 @@
   .iframe {
     width: 700px;
     height: 400px;
+  }
+
+  .gif {
+    width: 900px;
+    height: 450px;
   }
 
   .textBlock {

@@ -7,8 +7,8 @@ export default function Recolude() {
       <div className={styles.title}>
         <Image
           className={styles.logo}
-          src="/balena.png"
-          alt="Balena Cloud logo"
+          src="/recolude.png"
+          alt="Recolude logo"
           width={80}
           height={90}
         />
@@ -62,6 +62,13 @@ export default function Recolude() {
           green variations remind me of the Anaglyph 3D effect.
         </p>
       </div>
+      <Image
+        alt="Recolude Website"
+        className={styles.gif}
+        src="/recolude-site.gif"
+        width={280}
+        height={150}
+      />
       <div className={styles.textBlock}>
         <h3>Marketing Site Design</h3>
         <p>
@@ -76,6 +83,14 @@ export default function Recolude() {
           either schedule a demo or sign up for a trial.
         </p>
       </div>
+
+      <Image
+        alt="Recolude Analytics Web Player"
+        className={styles.gif}
+        src="/webplayer-nav.gif"
+        width={280}
+        height={150}
+      />
       <div className={styles.textBlock}>
         <h3>Web App Design</h3>
         <p>

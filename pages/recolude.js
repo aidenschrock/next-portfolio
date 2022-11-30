@@ -62,13 +62,6 @@ export default function Recolude() {
           green variations remind me of the Anaglyph 3D effect.
         </p>
       </div>
-      <Image
-        alt="Recolude Website"
-        className={styles.gif}
-        src="/recolude-site.gif"
-        width={280}
-        height={150}
-      />
       <div className={styles.textBlock}>
         <h3>Marketing Site Design</h3>
         <p>
@@ -84,13 +77,6 @@ export default function Recolude() {
         </p>
       </div>
 
-      <Image
-        alt="Recolude Analytics Web Player"
-        className={styles.gif}
-        src="/webplayer-nav.gif"
-        width={280}
-        height={150}
-      />
       <div className={styles.textBlock}>
         <h3>Web App Design</h3>
         <p>
